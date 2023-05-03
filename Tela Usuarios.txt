@@ -1,0 +1,26 @@
+tela de usuario 
+
+doMudarAparenciaLayoutControlTextEditAfterValidar é usado depois da veirifcaçao se estao preenchidos
+
+* Somente usuario com permissao pode acessar essa tela
+* Deve existir um usuario master no sistema na base
+  mas esse usuario nao pode ser visivel em nenhum momento no programa
+  E quando um usuario se logar com o login de master 
+  o master só deve ter permissao para cadastrar e editar usuarios
+
+1. A Tela deve mostrar um grid com todos os usuario do sistema 
+   A tela deve ter um segundo grid que mostra os perfis que cada usuario possui
+   O Grid dos perfis do usuario é atualizada para cada vez que o foco de um usuario no grid de
+   usuario é trocado
+   
+2. Este tela tem funcionalidade / botoes para 
+   Cadastrar novo usuario
+   Alterar Usuario : Este opçao abre uma pop up onde o usuario somente pode
+   		alterar  o login , e adicionar ou remover perfil
+                Um usuario deve ter pelo menos um perfil associado a ele, ele
+  		nao deve ser usuario isolado na base sem ligaçoes
+   Desativar usuario : muda o status do usuario 
+   Associar usuario para um funcionario : pois podem haver usuario que nao prcisam
+ser um funcionario contrato do estabelecimento 
+  
+   

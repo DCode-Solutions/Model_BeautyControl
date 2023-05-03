@@ -1,0 +1,10 @@
+Git projeto up
+
+1. Git init na pasta que contem meu projeto
+2. No Bit Bucket Criei um novo projeto
+3. Criei um repositorio BTCTRL
+4. no cmd do git acionei o cmd
+git remote add origin https://igopinheiro@bitbucket.org/igo_projetos/beautycontrol.git
+5. Com o tortoise git eu entao entrei na opção commit master
+6. Depois do commit apertei Push
+
